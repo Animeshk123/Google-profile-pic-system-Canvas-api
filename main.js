@@ -21,8 +21,7 @@ profileimg.addEventListener("click", () => {
     if(isDelete) {
     localStorage.removeItem("imgsrc");
     name.value = "";
-    viewBox.style.display = "block";
-    lastBox.style.display = "none";
+    alert("please refresh the page");
     }
     else {
         return;
